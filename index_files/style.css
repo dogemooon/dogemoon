@@ -647,7 +647,7 @@ p {
     content: '';
     top: 10px;
     left: 0;
-    background: linear-gradient(115deg, #ad12a4, #84087d);
+    background: linear-gradient(115deg, #8f2ddb, #6d09b9);
     z-index: -1;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
