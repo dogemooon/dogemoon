@@ -585,6 +585,29 @@ p {
     transition: all linear .3s;
 }
 
+.telegram a {
+    padding: 14px 20px;
+    background: linear-gradient(175deg, #42adff, #0e8ced);
+    color: white;
+    font-family: pb;
+    font-size: 18px;
+    position: relative;
+}
+
+.telegram a::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 0;
+    background: linear-gradient(115deg, #0577e8, #1d6af6);
+    z-index: -1;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
 .design-layer {
     position: absolute;
     width: 100%;
